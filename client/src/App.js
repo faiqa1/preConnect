@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Pages/HomePage/Header';
 import SecionOne from './Components/Pages/HomePage/SecionOne';
