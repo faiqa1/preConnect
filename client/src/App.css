@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg-blue{
+  background-color:#002746;;
+}
+.bg-lightblue{
+  background-color: #EFF5FB;
+}
+.fil-blue{
+  fill: #002746;
+}
