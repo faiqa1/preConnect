@@ -3,7 +3,7 @@ import { FaConnectdevelop } from "react-icons/fa6";
 
 export default function SectionFour() {
   return (
-    <div className="SectionWrapper w-full h-[500px] bg-pink-50 mt-[5%]">
+    <div className="SectionWrapper w-full h-[500px] bg-white mt-[5%]">
       <h2 className="text-black text-4xl pt-10 pb-1 font-bold ml-5">
         Featured Job Offers
       </h2>
@@ -11,7 +11,9 @@ export default function SectionFour() {
         Search your career opportunity 18,000 jobs
       </p>
       <div className="jobWrapper flex flex-wrap ">
-        <div className="jobCard w-[262px] h-[258px] ml-5">
+      
+
+        <div className="jobCard w-[320px] h-[258px] ml-5">
           <div class=" shadow-xl max-w-sm p-6 bg-white border border-gray-200 rounded-xl  dark:bg-white dark:border-white">
             <a href="#">
               <h5 class="mb-2 text-xl font-bold tracking-tight text-black">
@@ -41,7 +43,7 @@ export default function SectionFour() {
             </a>
           </div>
         </div>
-        <div className="jobCard w-[262px] h-[258px] ml-2 mr-2">
+        <div className="jobCard w-[320px] h-[258px] ml-2 mr-2">
           <div class=" shadow-xl max-w-sm p-6 bg-white border border-gray-200 rounded-xl  dark:bg-white dark:border-white">
             <a href="#">
               <h5 class="mb-2 text-xl font-bold tracking-tight text-black">
@@ -71,7 +73,7 @@ export default function SectionFour() {
             </a>
           </div>
         </div>
-        <div className="jobCard w-[262px] h-[258px] ml-2 mr-2">
+        <div className="jobCard w-[320px] h-[258px] ml-2 mr-2">
           <div class=" shadow-xl max-w-sm p-6 bg-white border border-gray-200 rounded-xl  dark:bg-white dark:border-white">
             <a href="#">
               <h5 class="mb-2 text-xl font-bold tracking-tight text-black">
@@ -101,7 +103,7 @@ export default function SectionFour() {
             </a>
           </div>
         </div>
-        <div className="jobCard w-[262px] h-[258px] ml-2 mr-2">
+        <div className="jobCard w-[320px] h-[258px] ml-2 mr-2">
           <div class=" shadow-xl max-w-sm p-6 bg-white border border-gray-200 rounded-xl  dark:bg-white dark:border-white">
             <a href="#">
               <h5 class="mb-2 text-xl font-bold tracking-tight text-black">

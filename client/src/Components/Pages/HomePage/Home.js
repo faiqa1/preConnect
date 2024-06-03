@@ -13,8 +13,8 @@ export default function Home() {
       <Header/>
       <SecionOne/>
       <StatCounter/>
-      <SectionTwo/>
-      <SectionFour/>
+      {/* <SectionTwo/> */}
+      {/* <SectionFour/> */}
       <SectionThree/>
       <SectionFive/>
       <Footer/>
