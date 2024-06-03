@@ -6,6 +6,7 @@ import SectionTwo from './SectionTwo'
 import SectionThree from './SectionThree'
 import SectionFour from './SectionFour'
 import Footer from './Footer'
+import SectionFive from './SectionFive'
 export default function Home() {
   return (
     <div>
@@ -15,7 +16,8 @@ export default function Home() {
       <SectionTwo/>
       <SectionFour/>
       <SectionThree/>
-      {/* <Footer/> */}
+      <SectionFive/>
+      <Footer/>
     </div>
   )
 }
