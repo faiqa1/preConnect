@@ -8,9 +8,7 @@
 .bg-lightblue{
   background-color: #EFF5FB;
 }
-.fil-blue{
-  fill: #002746;
-}
+
 .carouselWrapper .react-multiple-carousel__arrow--right,
  .react-multiple-carousel__arrow--left{
   display: none;
