@@ -3,11 +3,42 @@
   padding: 0;
 }
 .bg-blue{
-  background-color:#002746;;
+  background-color:#002746;
 }
 .bg-lightblue{
   background-color: #EFF5FB;
 }
 .fil-blue{
   fill: #002746;
+}
+.carouselWrapper .react-multiple-carousel__arrow--right,
+ .react-multiple-carousel__arrow--left{
+  display: none;
+}
+.carouselWrapper .react-multi-carousel-item {
+  width: 300px !important;
+}
+
+.carouselWrapper .react-multi-carousel-dot-list {
+  margin-top: 20px; /* Adjust this value as needed */
+}
+
+.carouselWrapper .react-multi-carousel-dot--active button {
+  opacity: 1;
+  width: 30px;
+}
+.react-multi-carousel-list  {
+  padding-bottom: 5rem;
+}
+.bgCard{
+  background-color: #e6f0f9;
+}
+.bgsethscopehover{
+  background-color: v#0969c3;
+}
+.bgcarousel{
+  background-color: #002746;
+}
+.bg-pink{
+  background-color: #fff8ec;
 }

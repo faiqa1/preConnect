@@ -15,7 +15,7 @@ export default function Home() {
       <StatCounter />
       <JobCategory />
       {/* <SectionTwo/> */}
-      {/* <SectionFour/> */}
+      <SectionFour/>
       {/* <SectionThree/> */}
       <Footer />
     </div>
