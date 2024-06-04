@@ -47,13 +47,14 @@ export default function JobCategory() {
           autoPlay={false}
           autoPlayInterval={2000}
           showDots={true}
-          className="mr-[4rem] ml-[6rem] hover:bgcarousel "
+          className="mr-[4rem] ml-[6rem] "
         >
           <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
+            <div class="max-w-sm p-6 bg-white border h-18  
+            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
               <div
                 className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem]"
+                 rounded-3xl ml-[1.5rem] iconwrapper"
               >
                 <FaStethoscope className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
               </div>
@@ -62,10 +63,11 @@ export default function JobCategory() {
             </div>
           </div>
           <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
+            <div class="max-w-sm p-6
+             bgcarouselhover  bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
               <div
                 className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem]"
+                 rounded-3xl ml-[1.5rem] iconwrapper"
               >
                 <BiSolidPieChartAlt2 className="ml-[-1.5rem] w-[5rem] h-[2rem]"/>
               </div>
@@ -74,10 +76,11 @@ export default function JobCategory() {
             </div>
           </div>
           <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
+            <div class="max-w-sm p-6 bg-white border h-18 
+             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
               <div
                 className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem]"
+                 rounded-3xl ml-[1.5rem] iconwrapper"
               >
 
                 <FaCubes  className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
@@ -87,10 +90,10 @@ export default function JobCategory() {
             </div>
           </div>
           <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
+            <div class="max-w-sm p-6 bg-white border h-18   bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
               <div
                 className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem]"
+                 rounded-3xl ml-[1.5rem] iconwrapper"
               >
                 <FaRegComments  className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
               </div>
@@ -99,10 +102,11 @@ export default function JobCategory() {
             </div>
           </div>
           <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
+            <div class="max-w-sm p-6 bg-white border h-18
+             bgcarouselhover  shadow bgCard h-[18rem] rounded-3xl">
               <div
                 className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem]"
+                 rounded-3xl ml-[1.5rem] iconwrapper"
               >
                 <FaChartLine className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
               </div>
@@ -111,10 +115,10 @@ export default function JobCategory() {
             </div>
           </div>
           <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
+            <div class="max-w-sm p-6 bg-white border h-18  bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
               <div
                 className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem]"
+                 rounded-3xl ml-[1.5rem] iconwrapper"
               >
                 <FaRegAddressCard  className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
               </div>
@@ -123,10 +127,11 @@ export default function JobCategory() {
             </div>
           </div>
           <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
+            <div class="max-w-sm p-6 bg-white border h-18  shadow 
+             bgcarouselhover bgCard h-[18rem] rounded-3xl">
               <div
                 className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem]"
+                 rounded-3xl ml-[1.5rem] iconwrapper"
               >
                 <FaRegCalendar  className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
               </div>
@@ -135,10 +140,10 @@ export default function JobCategory() {
             </div>
           </div>
           <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
+            <div class="max-w-sm p-6 bg-white border h-18   bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
               <div
                 className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem]"
+                 rounded-3xl ml-[1.5rem] iconwrapper"
               >
                 <FaTerminal   className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
               </div>

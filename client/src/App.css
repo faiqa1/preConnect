@@ -36,8 +36,12 @@
 .bgsethscopehover{
   background-color: v#0969c3;
 }
-.bgcarousel{
+.bgcarouselhover:hover{
   background-color: #002746;
+  color: #fff;
+}
+.bgcarouselhover:hover .iconwrapper{
+  background-color: #0969c3;
 }
 .bg-pink{
   background-color: #fff8ec;
