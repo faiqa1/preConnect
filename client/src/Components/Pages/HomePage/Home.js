@@ -6,6 +6,8 @@ import NewsLetter from "./NewsLetter.";
 import Enquire from "./Enquire";
 import CompaniesLogo from "./CompaniesLogo";
 import FeaturedJobs from "./FeaturedJobs";
+import Companies from "./Companies";
+import FeaturedCities from "./FeaturedCities";
 export default function Home() {
   return (
     <div>
@@ -14,7 +16,9 @@ export default function Home() {
       <JobCategory />
       <FeaturedJobs />
       <CompaniesLogo/>
-      <Enquire/>
+      <Companies/>
+      <FeaturedCities/>
+      {/* <Enquire/> */}
       <NewsLetter/>
     </div>
   );

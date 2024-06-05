@@ -128,9 +128,9 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-              <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-                © 2024 <a href="https://flowbite.com/">PreConnect™</a>. All Rights
+            <div class="px-4 py-6 bg-[#002746] dark:bg-[#002746] md:flex md:items-center md:justify-between">
+              <span class="text-sm text-white dark:text-white-500 sm:text-center font-bold">
+                © 2024 <a href="https://flowbite.com/" >PreConnect™</a>. All Rights
                 Reserved.
               </span>
               <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">

@@ -5,7 +5,7 @@ import Microsoft from '../../../Images/microsoft.png'
 import Netflix from '../../../Images/netflix.png'
 export default function CompaniesLogo() {
   return (
-    <div className='wRapper'>
+    <div className='wRapper mt-10'>
       <div>
         <ul className='flex ml-[15rem]'>
             <li className='w-[184px]'>
