@@ -15,7 +15,8 @@ export default function SectionThree() {
           sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
           aspernatur aut odit aut fugit
         </p>
-        <button className='text-white text-lg ml-[2%] font-bold bg-blue px-4 py-4 rounded-md'>
+        <button className='text-white text-normal
+         font-bold bg-blue px-2 py-4 mr-[2rem] rounded-md'>
          Enquire now
       <FaArrowRight className='mt-[-1.4rem] ml-[8rem] fill-white'/>
       </button>

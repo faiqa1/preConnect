@@ -288,7 +288,8 @@ export default function SectionFour() {
       <div className="btnjoboffer mt-[5%] ml-[7%]">
             <button>
             <Link to='/' className='text-white font-extrabold 
-            bg-[#0969c3] px-8 py-3 rounded-3xl  hover:bg-[#002746] hover:px-10'>
+            bg-[#0969c3] px-8 py-3 rounded-3xl
+            hover:bg-[#002746] hover:pr-[3rem]'>
               All Job Offers 
             </Link>
             </button>
