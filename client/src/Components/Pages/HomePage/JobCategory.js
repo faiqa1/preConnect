@@ -29,6 +29,8 @@ const responsive = {
     items: 1,
   },
 };
+
+
 export default function JobCategory() {
   return (
     <div className="mlr-auto">
@@ -44,8 +46,9 @@ export default function JobCategory() {
       <div className="carouselWrapper mt-[5%] mb-[5%] ">
         <Carousel
           responsive={responsive}
-          autoPlay={false}
-          autoPlayInterval={2000}
+          infinite={true}
+          // autoPlay={false}
+          // autoPlaySpeed={1000}
           showDots={true}
           className="mr-[4rem] ml-[6rem] "
         >

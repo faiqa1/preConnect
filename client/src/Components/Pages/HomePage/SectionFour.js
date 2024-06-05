@@ -28,40 +28,42 @@ export default function SectionFour() {
       <div className="jobWrapper flex flex-wrap mr-[4rem] ml-[6rem] ">
         <div className="jobCardWrapper w-[22rem]  ">
           <Link>
-          <div class="max-w-sm p-6 b border shadow-xl bg-white h-[17rem] rounded-3xl">
-            <div className="">
-              <FaChartLine className="ml-[2.5rem] w-[1.5rem] h-[2rem]" />
-              <h2
-                className="text-gray-400  text-normal  mt-[-1.7rem]
+            <div class="max-w-sm p-6 b border shadow-xl bg-white h-[17rem] rounded-3xl">
+              <div className="">
+                <FaChartLine className="ml-[2.5rem] w-[1.5rem] h-[2rem]" />
+                <h2
+                  className="text-gray-400  text-normal  mt-[-1.7rem]
                  ml-[7rem] pb-2"
-              >
-                Finance
-              </h2>
-              <h3 className="text-black font-bold texl-xl text-center pb-4">
-                Financal Analyst
-              </h3>
+                >
+                  Finance
+                </h2>
+                <h3 className="text-black font-bold texl-xl text-center pb-4">
+                  Financal Analyst
+                </h3>
 
-              <div className="location-list text-center pb-2 pt-5">
-                <ul className="list-none flex flex-wrap ml-[1rem] ">
-                  <li>
-                    <Link to="/loc" className="text-black font-bold">
-                      San Diego, CA
-                    </Link>
-                  </li>
-                  <li className="ml-[4rem] font-normal text-gray">Full time</li>
-                </ul>
+                <div className="location-list text-center pb-2 pt-5">
+                  <ul className="list-none flex flex-wrap ml-[1rem] ">
+                    <li>
+                      <Link to="/loc" className="text-black font-bold">
+                        San Diego, CA
+                      </Link>
+                    </li>
+                    <li className="ml-[4rem] font-normal text-gray">
+                      Full time
+                    </li>
+                  </ul>
+                </div>
+                <p className="pt-[9%] ml-[5%] font-thin text-gray-700">
+                  June 8, 2024
+                </p>
+                <h3 className="ml-[5%] text-black font-medium">Gameware</h3>
+
+                <img
+                  src={game}
+                  className="float-right rounded-3xl w-[20%] mt-[-15%]"
+                />
               </div>
-              <p className="pt-[9%] ml-[5%] font-thin text-gray-700">
-                June 8, 2024
-              </p>
-              <h3 className="ml-[5%] text-black font-medium">Gameware</h3>
-
-              <img
-                src={game}
-                className="float-right rounded-3xl w-[20%] mt-[-15%]"
-              />
             </div>
-          </div>
           </Link>
         </div>
         <div className="jobCardWrapper w-[22rem] ml-4 mr-4">

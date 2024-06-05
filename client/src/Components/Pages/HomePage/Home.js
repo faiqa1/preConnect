@@ -10,14 +10,12 @@ import JobCategory from "./JobCategory";
 export default function Home() {
   return (
     <div>
-      <Header />
       <SecionOne />
       <StatCounter />
       <JobCategory />
       {/* <SectionTwo/> */}
-      <SectionFour/>
+      <SectionFour />
       {/* <SectionThree/> */}
-      <Footer/>
     </div>
   );
 }
