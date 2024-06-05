@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Blog from "./Components/Pages/Blog/Blog";
 import Signup from "./Components/Pages/Signup.js/Signup";
 import Layout from "./Components/Layout/Index";
+import BlogPage1 from "./Components/Pages/Blog/BlogPage1";
 
 function App() {
   return (
@@ -24,6 +25,14 @@ function App() {
             element={
               <Layout>
                 <Blog />
+              </Layout>
+            }
+          />
+          <Route
+            path='/page1'
+            element={
+              <Layout>
+                <BlogPage1 />
               </Layout>
             }
           />

@@ -41,7 +41,7 @@ export default function Footer() {
                   </li>
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
-                      Brand Center
+                      FAQs
                     </a>
                   </li>
                   <li class="mb-4">
@@ -53,27 +53,27 @@ export default function Footer() {
               </div>
               <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Help center
+                  For Candidates
                 </h2>
                 <ul class="text-gray-500 dark:text-gray-400 font-medium">
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
-                      Discord Server
+                      Find jobs
                     </a>
                   </li>
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
-                      Twitter
+                      Candidate DashBoard
                     </a>
                   </li>
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
-                      Facebook
+                      Favorite jobs
                     </a>
                   </li>
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
-                      Contact Us
+                    My Application
                     </a>
                   </li>
                 </ul>
@@ -130,8 +130,8 @@ export default function Footer() {
             </div>
             <div class="px-4 py-6 bg-[#002746] dark:bg-[#002746] md:flex md:items-center md:justify-between">
               <span class="text-sm text-white dark:text-white-500 sm:text-center font-bold">
-                © 2024 <a href="https://flowbite.com/" >PreConnect™</a>. All Rights
-                Reserved.
+                © 2024 <a href="https://flowbite.com/">PreConnect™</a>. All
+                Rights Reserved.
               </span>
               <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
                 <a

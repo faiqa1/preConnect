@@ -1,39 +1,41 @@
-// import { FaGooglePlusG } from "react-icons/fa6";
-// import { FaFacebook } from "react-icons/fa";
-// import { FaLinkedinIn } from "react-icons/fa";
-import React from 'react';
-import { useFormik } from 'formik';
-import * as Yup from 'yup';
+import { FaGooglePlusG } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import React from "react";
+import { useFormik } from "formik";
+import * as Yup from "yup";
 
 const validationSchema = Yup.object({
-  name: Yup.string().required('Name is required'),
-  email: Yup.string().email('Invalid email address').required('Email is required'),
-  password: Yup.string().required('Password is required'),
+  name: Yup.string().required("Name is required"),
+  email: Yup.string()
+    .email("Invalid email address")
+    .required("Email is required"),
+  password: Yup.string().required("Password is required"),
 });
 
-const Signup= () => {
+const Signup = () => {
   const signUpFormik = useFormik({
-    initialValues: { name: '', email: '', password: '' },
+    initialValues: { name: "", email: "", password: "" },
     validationSchema,
     onSubmit: (values) => {
-      console.log('Sign Up', values);
+      console.log("Sign Up", values);
     },
   });
 
   const signInFormik = useFormik({
-    initialValues: { email: '', password: '' },
-    validationSchema: validationSchema.pick(['email', 'password']),
+    initialValues: { email: "", password: "" },
+    validationSchema: validationSchema.pick(["email", "password"]),
     onSubmit: (values) => {
-      console.log('Sign In', values);
+      console.log("Sign In", values);
     },
   });
 
   const handleSignUpClick = () => {
-    document.getElementById('container').classList.add('right-panel-active');
+    document.getElementById("container").classList.add("right-panel-active");
   };
 
   const handleSignInClick = () => {
-    document.getElementById('container').classList.remove('right-panel-active');
+    document.getElementById("container").classList.remove("right-panel-active");
   };
 
   return (
@@ -43,9 +45,18 @@ const Signup= () => {
           <form onSubmit={signUpFormik.handleSubmit}>
             <h1>Create Account</h1>
             <div className="social-container">
-              <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
-              <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
-              <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
+              <a href="#" className="social">
+                <FaGooglePlusG />
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" className="social">
+                <FaFacebook />
+                <i className="fab fa-google-plus-g"></i>
+              </a>
+              <a href="#" className="social">
+                <FaLinkedinIn />
+                <i className="fab fa-linkedin-in"></i>
+              </a>
             </div>
             <span>or use your email for registration</span>
             <input
@@ -88,9 +99,15 @@ const Signup= () => {
           <form onSubmit={signInFormik.handleSubmit}>
             <h1>Sign in</h1>
             <div className="social-container">
-              <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
-              <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
-              <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
+              <a href="#" className="social">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" className="social">
+                <i className="fab fa-google-plus-g"></i>
+              </a>
+              <a href="#" className="social">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
             </div>
             <span>or use your account</span>
             <input
@@ -123,28 +140,25 @@ const Signup= () => {
           <div className="overlay">
             <div className="overlay-panel overlay-left">
               <h1>Welcome Back!</h1>
-              <p>To keep connected with us please login with your personal info</p>
-              <button className="ghost" id="signIn" onClick={handleSignInClick}>Sign In</button>
+              <p>
+                To keep connected with us please login with your personal info
+              </p>
+              <button className="ghost" id="signIn" onClick={handleSignInClick}>
+                Sign In
+              </button>
             </div>
             <div className="overlay-panel overlay-right">
               <h1>Hello, Friend!</h1>
               <p>Enter your personal details and start journey with us</p>
-              <button className="ghost" id="signUp" onClick={handleSignUpClick}>Sign Up</button>
+              <button className="ghost" id="signUp" onClick={handleSignUpClick}>
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
       </div>
-      {/* <footer>
-        <p>
-          Created with <i className="fa fa-heart"></i> by
-          <a target="_blank" rel="noreferrer" href="https://florin-pop.com">Florin Pop</a>
-          - Read how I created this and how you can join the challenge
-          <a target="_blank" rel="noreferrer" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
-        </p>
-      </footer> */}
     </div>
   );
 };
 
 export default Signup;
-
