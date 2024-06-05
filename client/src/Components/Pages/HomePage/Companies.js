@@ -7,7 +7,7 @@ import logo4 from "../../../Images/company-logo4.png";
 
 export default function Companies() {
   return (
-    <div className="ml-[10rem] mt-[2rem]">
+    <div className="ml-[10rem] mt-[2rem]" id="companies">
       <h2 className="text-black font-extrabold text-4xl">
         Find Best Companies
       </h2>
