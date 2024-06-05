@@ -16,9 +16,10 @@ import { FaRegAddressCard } from "react-icons/fa";
 import { FaRegCalendar } from "react-icons/fa";
 import { FaTerminal } from "react-icons/fa6";
 
+
 export default function SectionFour() {
   return (
-    <div className="SectionWrapper w-full h-[75rem] bg-pink mt-[5%]">
+    <div className="SectionWrapper w-full h-[79rem] bg-pink mt-[5%]">
       <h2 className="text-black text-4xl pt-10 pb-4 ml-5 font-extrabold">
         Featured Job Offers
       </h2>
@@ -282,7 +283,16 @@ export default function SectionFour() {
             </div>
           </div>
         </div>
+        
       </div>
+      <div className="btnjoboffer mt-[5%] ml-[7%]">
+            <button>
+            <Link to='/' className='text-white font-extrabold 
+            bg-[#0969c3] px-8 py-3 rounded-3xl  hover:bg-[#002746] hover:px-10'>
+              All Job Offers 
+            </Link>
+            </button>
+          </div>
     </div>
   );
 }

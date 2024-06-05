@@ -7,15 +7,15 @@ import SectionThree from "./SectionThree";
 import SectionFour from "./SectionFour";
 import Footer from "./Footer";
 import JobCategory from "./JobCategory";
+import NewsLetter from "./NewsLetter.";
 export default function Home() {
   return (
     <div>
       <SecionOne />
       <StatCounter />
       <JobCategory />
-      {/* <SectionTwo/> */}
       <SectionFour />
-      {/* <SectionThree/> */}
+      <NewsLetter/>
     </div>
   );
 }

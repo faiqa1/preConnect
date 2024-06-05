@@ -1,28 +1,29 @@
-import React from 'react'
+import React from "react";
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import Bimage from '../../../Images/bannerImage.png'
+import Bimage from "../../../Images/bannerImage.png";
 import { FaArrowRight } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default function SecionOne() {
   return (
     <>
-    <div className='bg-blue h-[430px] w-full'>
-      <div className='wrapper'>
-     <h1 className='text-white text-4xl w-[40%] pt-8 pb-2 ml-[5%] font-bold'>Ignite Your Tech Career Today</h1>
-     <p className='text-white text-2xl w-[50%]  pt-8 pb-2 ml-[5%] '>Join us and ignite your tech journey
-     to reach new heights of success.Preconnect will help you to
-     reach your potentials.</p>
-     <button className='text-white text-lg ml-[5%] font-bold pt-10 underline decoration-[#002746] hover:decoration-[#fff]'>
-      <Link to ='/signup'>
-      Get Started
-      </Link>
-      <FaArrowRight className='mt-[-1.4rem] ml-[8rem]'/>
-      </button>
-     </div>
-    <img className='float-right mt-[-19%] mr-[3%] w-[34%]' src={Bimage}/>
-    </div>
-    {/* <div  className="relative bg-black text-white">
+      <div className="bg-blue h-[430px] w-full">
+        <div className="wrapper">
+          <h1 className="text-white text-4xl w-[40%] pt-8 pb-2 ml-[5%] font-bold">
+            Ignite Your Tech Career Today
+          </h1>
+          <p className="text-white text-2xl w-[50%]  pt-8 pb-2 ml-[5%] ">
+            Join us and ignite your tech journey to reach new heights of
+            success.Preconnect will help you to reach your potentials.
+          </p>
+          <button className="text-white text-lg ml-[5%] font-bold pt-10 underline decoration-[#002746] hover:decoration-[#fff]">
+            <Link to="/signup">Get Started</Link>
+            <FaArrowRight className="mt-[-1.4rem] ml-[8rem]" />
+          </button>
+        </div>
+        <img className="float-right mt-[-19%] mr-[3%] w-[34%]" src={Bimage} />
+      </div>
+      {/* <div  className="relative bg-black text-white">
        <div className="absolute top-0 left-0 w-[100%] overflow-hidden">
                 <svg data-name="Layer 1"
                  xmlns="http://www.w3.org/2000/svg" 
@@ -38,5 +39,5 @@ export default function SecionOne() {
             </div>
     </div> */}
     </>
-  )
+  );
 }

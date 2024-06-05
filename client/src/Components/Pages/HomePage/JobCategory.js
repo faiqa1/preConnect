@@ -9,6 +9,7 @@ import { FaChartLine } from "react-icons/fa";
 import { FaRegAddressCard } from "react-icons/fa";
 import { FaRegCalendar } from "react-icons/fa";
 import { FaTerminal } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const responsive = {
   superLargeDesktop: {
@@ -154,7 +155,6 @@ export default function JobCategory() {
               <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">20 Open Positions</h4>
             </div>
           </div>
-          
         </Carousel>
       </div>
     </div>
