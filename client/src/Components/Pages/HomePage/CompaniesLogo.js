@@ -3,7 +3,7 @@ import Amazon from '../../../Images/amazon.png'
 import Google from '../../../Images/google.png'
 import Microsoft from '../../../Images/microsoft.png'
 import Netflix from '../../../Images/netflix.png'
-export default function SectionTwo() {
+export default function CompaniesLogo() {
   return (
     <div className='wRapper'>
       <div>

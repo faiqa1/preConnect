@@ -17,7 +17,7 @@ import { FaRegCalendar } from "react-icons/fa";
 import { FaTerminal } from "react-icons/fa6";
 
 
-export default function SectionFour() {
+export default function FeaturedJobs() {
   return (
     <div className="SectionWrapper w-full h-[79rem] bg-pink mt-[5%]">
       <h2 className="text-black text-4xl pt-10 pb-4 ml-5 font-extrabold">

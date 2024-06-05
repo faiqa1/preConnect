@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import laptop from '../../../Images/manOnLaptop.jpeg'
-export default function SectionThree() {
+export default function Enquire() {
   return (
     <div className="SectionWrapper w-full h-[400px] bg-lightblue mt-[5%]">
       <div className="w-1/2 ml-32">
@@ -16,9 +16,9 @@ export default function SectionThree() {
           aspernatur aut odit aut fugit
         </p>
         <button className='text-white text-normal
-         font-bold bg-blue px-2 py-4 mr-[2rem] rounded-md'>
+         font-bold bg-blue  py-4 rounded-md mr-[15%]'>
          Enquire now
-      <FaArrowRight className='mt-[-1.4rem] ml-[8rem] fill-white'/>
+      <FaArrowRight className='mt-[-1.2rem] ml-[8rem] fill-white'/>
       </button>
       </div>
       <div>
