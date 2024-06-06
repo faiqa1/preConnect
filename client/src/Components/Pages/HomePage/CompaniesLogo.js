@@ -7,7 +7,7 @@ export default function CompaniesLogo() {
   return (
     <div className='wRapper mt-10'>
       <div>
-        <ul className='flex ml-[15rem]'>
+        <ul className='flex justify-center'>
             <li className='w-[184px]'>
                 <img src={Amazon}/>
             </li>

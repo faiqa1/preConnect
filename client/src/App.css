@@ -8,7 +8,15 @@
 .bg-lightblue{
   background-color: #EFF5FB;
 }
-
+.hoverCardHeading:hover h2{
+  color: #0969c3;
+}
+.hoverCardHeading:hover .chartline{
+  background-color: #0969c3;
+}
+.hoverCardHeading:hover .faicon{
+  fill: #fff;
+}
 .carouselWrapper .react-multiple-carousel__arrow--right,
  .react-multiple-carousel__arrow--left{
   display: none;

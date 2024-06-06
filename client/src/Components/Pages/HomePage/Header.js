@@ -51,14 +51,14 @@ export default function Header() {
                   Home
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href='/#'
                   class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white  underline decoration-[#002746] hover:decoration-[#fff]"
                 >
                   About
                 </a>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to='/blogs'
@@ -68,20 +68,20 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <a
-                  href="#featuredjobs"
+                <Link
+                  to="/featuredjobs"
                   class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent underline decoration-[#002746] hover:decoration-[#fff]"
                 >
                   Find Jobs
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href= '#companies'
+                <Link
+                  to= '/companies'
                   class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent underline decoration-[#002746] hover:decoration-[#fff]"
                 >
                   Companies
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

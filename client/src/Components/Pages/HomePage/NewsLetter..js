@@ -2,20 +2,25 @@ import React from "react";
 import newsletter from "../../../Images/newsletter.png";
 export default function () {
   return (
-    <div className="newsWrapper mt-20 mb-20 ml-[30rem]">
+    <div className="newsWrapper my-10 w-10/12 mx-10
+    max-h-[40rem] md:max-h-[20rem] lg:max-h-[40rem] py-5 ">
+      <div className="newsLetterHeading text-center">
       <h2 className="text-black font-extrabold text-4xl">Stay up to date</h2>
       <p className="text-gray-500 py-5">Subscribe to our newsletter to receive our weekly feed.</p>
-      <img src={newsletter} className="w-[30%] my-[2rem] shadow-md" />
-      <div>
+      </div>
+      <div className="flex justify-center">
+      <img src={newsletter} className="w-[30%]  " />
+      </div>
+      <div className="flex justify-center">
         <form>
           <input
             type="email"
             name="email"
             placeholder="Email"
-            className=" text-gray-500 border rounded-2xl px-5 py-2 w-[20rem] bg-white"
+            className=" text-gray-500 border rounded-[25rem] px-5 py-4 w-[28rem] bg-white"
           />
           <button
-            className="bg-[#0969c3] hover:bg-[#002746] text-white font-bold rounded-lg py-2 px-4 ml-[2%] hover:pr-[3rem]" 
+            className="bg-[#0969c3] hover:bg-[#002746] text-white font-bold rounded-[25rem] py-4 px-4 hover:pr-[8rem] ml-[-8rem] w-[8rem] hover:text-justify"
           >
             Subscribe
           </button>

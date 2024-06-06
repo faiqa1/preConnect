@@ -13,11 +13,11 @@ export default function Home() {
     <div>
       <SecionOne />
       <StatCounter />
-      <JobCategory />
+      {/* <JobCategory /> */}
       <FeaturedJobs />
       <CompaniesLogo/>
-      <Companies/>
-      <FeaturedCities/>
+      {/* <Companies/>
+      <FeaturedCities/> */}
       {/* <Enquire/> */}
       <NewsLetter/>
     </div>

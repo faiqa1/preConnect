@@ -60,7 +60,7 @@ export default function Blog() {
                   <li className="text-gray-500 text-sm">June 8, 2024</li>
                   <li>
                     <Link
-                      to="/loc"
+                      to="/#"
                       className="text-black text-sm hover:text-blue-500"
                     >
                       Workplace
@@ -70,7 +70,7 @@ export default function Blog() {
               </div>
             </div>
             <h2 className="text-black font-extrabold text-md hover:text-blue-500 mx-8 w-[75%] my-3">
-              <Link to="/#">Mental health in the workplace</Link>
+              <Link to="/page2">Mental health in the workplace</Link>
             </h2>
             <p className="text-gray-500 text-md mx-5 pb-5">
             But with more than 5 million jobs on Jobster, where do you even begin? Follow our tips and tricks below to help you find better, faster. Let the Perfect Job...

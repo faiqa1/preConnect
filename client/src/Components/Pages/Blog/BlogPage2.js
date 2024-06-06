@@ -6,17 +6,15 @@ import blog3 from "../../../Images/blog3.png";
 import blog4 from "../../../Images/blog4.png";
 import blog5 from "../../../Images/blog5.png";
 
-export default function BlogPage1() {
+export default function BlogPage2() {
   return (
     <>
       <div className="blogPage1 my-20 ml-[10rem]">
         <h2 className="text-black font-extrabold text-5xl w-[55%] ">
-          How to find your first job out of college
+        Mental health in the workplace
         </h2>
         <p className="text-gray-500 text-md py-5 w-[60%]">
-          It’s keyword-optimized, industry-specified, full of achievements,
-          backed by data, and double-checked by an expert. If it’s none of these
-          things, stop right here and learn how to get your resume...
+        But with more than 5 million jobs on Jobster, where do you even begin? Follow our tips and tricks below to help you find better, faster. Let the Perfect Job...
         </p>
         <div className="location-list text-center pb-2 ml-[25rem]">
           <ul className="list-none text-center">
@@ -26,19 +24,17 @@ export default function BlogPage1() {
                 to="/loc"
                 className="text-blue-600 text-sm  hover:text-blue-500"
               >
-                Jobs
+                Workplace
               </Link>
             </li>
-            <li className="text-gray-500 text-sm">June 8, 2024</li>
+            <li className="text-gray-500 text-sm">June 2, 2024</li>
           </ul>
         </div>
         <div>
-          <img src={blog1} className="rounded-2xl w-[85%] h-[30rem]" />
+          <img src={blog2} className="rounded-2xl w-[85%] h-[30rem]" />
         </div>
         <p className="text-gray-500 text-md py-5 w-[60%] mt-[5%]">
-          It’s keyword-optimized, industry-specified, full of achievements,
-          backed by data, and double-checked by an expert. If it’s none of these
-          things, stop right here and learn how to get your resume...
+        But with more than 5 million jobs on Jobster, where do you even begin? Follow our tips and tricks below to help you find better, faster.
         </p>
 
         <div>
@@ -65,40 +61,38 @@ export default function BlogPage1() {
       <div className="blogCardWrapper flex flex-wrap ml-[10%]">
         <h2></h2>
 
-        <div className="jobCardWrapper w-[23rem] ">
+        <div className="jobCardWrapper w-[23rem]">
           <div class="max-w-sm b border shadow-xl bg-white h-[35rem] rounded-3xl">
             <div className="">
               <img
-                src={blog2}
+                src={blog1}
                 className=" rounded-3xl w-[22.97rem] h-[15rem] "
               />
-              <div className="location-list text-center pb-2 pt-10 mt-[-1rem] rounded-b-lg bg-[#EFF5FB]">
+              <div className="location-list text-center pb-2 pt-10 mt-[-1rem] rounded-b-lg
+               bg-[#EFF5FB]">
                 <ul className="list-none text-center">
                   <li className="text-gray-500 text-sm">June 8, 2024</li>
                   <li>
                     <Link
                       to="/#"
-                      className="text-black text-sm hover:text-blue-500"
+                      className="text-black text-sm  hover:text-blue-500"
                     >
-                      Workplace
+                      Jobs
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
             <h2 className="text-black font-extrabold text-md hover:text-blue-500 mx-8 w-[75%] my-3">
-              <Link to="/page2">Mental health in the workplace</Link>
+              <Link to="/page1">How to find your first job out of college</Link>
             </h2>
             <p className="text-gray-500 text-md mx-5 pb-5">
-              But with more than 5 million jobs on Jobster, where do you even
-              begin? Follow our tips and tricks below to help you find better,
-              faster. Let the Perfect Job...
+              It’s keyword-optimized, industry-specified, full of achievements,
+              backed by data, and double-checked by an expert. If it’s none of
+              these thing...
             </p>
 
-            <Link
-              to="/"
-              className="text-blue-500  text-lg font-bold ml-10 hover:text-[#002746] "
-            >
+            <Link to="/" className="text-blue-500  text-lg font-bold ml-10 hover:text-[#002746] ">
               Read More
             </Link>
           </div>
@@ -167,7 +161,7 @@ export default function BlogPage1() {
               </div>
             </div>
             <h2 className="text-black font-extrabold text-md hover:text-blue-500 mx-8 w-[75%] my-3">
-              <Link to="/page5">100 top interview questions – be prepared</Link>
+              <Link to="/page4">100 top interview questions – be prepared</Link>
             </h2>
             <p className="text-gray-500 text-md mx-5 pb-5">
               Have realistic expectations Most designers will tell you that, as
