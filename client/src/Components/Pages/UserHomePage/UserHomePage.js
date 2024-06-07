@@ -2,6 +2,7 @@ import React from 'react'
 import UserHeader from './UserHeader'
 import CreatePost from './CreatePost'
 import SideNavbar from './SideNavbar'
+import SideContainer from './SideContainer'
 
 export default function UserHomePage() {
   return (
@@ -9,6 +10,7 @@ export default function UserHomePage() {
         <UserHeader/>
         <CreatePost/>
         <SideNavbar/>
+        <SideContainer/>
     </div>
   )
 }
