@@ -11,13 +11,15 @@ export default function Blog() {
     <div className="blogWrapper my-20 ml-10">
       <h2 className="text-black font-extrabold text-5xl">Top Career Advice</h2>
       <p className="text-gray-500 py-5">Browse the latest career advices</p>
-      <div className="blogCardWrapper flex flex-wrap mx-16">
-        <div className="jobCardWrapper w-[23rem]">
-          <div class="max-w-sm b border shadow-xl bg-white h-[35rem] rounded-3xl">
+      <div className="blogCardWrapper grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-16 justify-center"
+      style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
+        <div className="jobCardWrapper">
+          <div class="max-w-[386px]
+         md:max-w-[300px] lg:max-w-[386px] b border shadow-xl bg-white h-[35rem] rounded-3xl">
             <div className="">
               <img
                 src={blog1}
-                className=" rounded-3xl w-[22.97rem] h-[15rem] "
+                className=" rounded-3xl w-[23.9rem] h-[15rem] "
               />
               <div className="location-list text-center pb-2 pt-10 mt-[-1rem] rounded-b-lg
                bg-[#EFF5FB]">
@@ -34,8 +36,8 @@ export default function Blog() {
                 </ul>
               </div>
             </div>
-            <h2 className="text-black font-extrabold text-md hover:text-blue-500 mx-8 w-[75%] my-3">
-              <Link to="/page1">How to find your first job out of college</Link>
+            <h2 className="text-black font-extrabold text-md  mx-8 w-[75%] my-3">
+              How to find your first job out of college
             </h2>
             <p className="text-gray-500 text-md mx-5 pb-5">
               It’s keyword-optimized, industry-specified, full of achievements,
@@ -43,17 +45,18 @@ export default function Blog() {
               these thing...
             </p>
 
-            <Link to="/" className="text-blue-500  text-lg font-bold ml-10 hover:text-[#002746] ">
+            <Link to="/page1" className="text-blue-500  text-lg font-bold ml-10 hover:text-[#002746] ">
               Read More
             </Link>
           </div>
         </div>
-        <div className="jobCardWrapper w-[23rem] mx-8">
-          <div class="max-w-sm b border shadow-xl bg-white h-[35rem] rounded-3xl">
+        <div className="jobCardWrapper">
+          <div class=" max-w-[386px]
+         md:max-w-[300px] lg:max-w-[386px] b border shadow-xl bg-white h-[35rem] rounded-3xl">
             <div className="">
               <img
                 src={blog2}
-                className=" rounded-3xl w-[22.97rem] h-[15rem] "
+                className=" rounded-3xl w-[23.9rem] h-[15rem] "
               />
               <div className="location-list text-center pb-2 pt-10 mt-[-1rem] rounded-b-lg bg-[#EFF5FB]">
                 <ul className="list-none text-center">
@@ -69,24 +72,25 @@ export default function Blog() {
                 </ul>
               </div>
             </div>
-            <h2 className="text-black font-extrabold text-md hover:text-blue-500 mx-8 w-[75%] my-3">
-              <Link to="/page2">Mental health in the workplace</Link>
+            <h2 className="text-black font-extrabold text-md  mx-8 w-[75%] my-3">
+              Mental health in the workplace
             </h2>
             <p className="text-gray-500 text-md mx-5 pb-5">
             But with more than 5 million jobs on Jobster, where do you even begin? Follow our tips and tricks below to help you find better, faster. Let the Perfect Job...
             </p>
 
-            <Link to="/" className="text-blue-500  text-lg font-bold ml-10 hover:text-[#002746] ">
+            <Link to="/page2" className="text-blue-500  text-lg font-bold ml-10 hover:text-[#002746] ">
               Read More
             </Link>
           </div>
         </div>
-        <div className="jobCardWrapper w-[23rem]">
-          <div class="max-w-sm b border shadow-xl bg-white h-[35rem] rounded-3xl">
+        <div className="jobCardWrapper ">
+          <div class="max-w-[386px
+         md:max-w-[340px] lg:max-w-[386px] b border shadow-xl bg-white h-[35rem] rounded-3xl">
             <div className="">
               <img
                 src={blog3}
-                className=" rounded-3xl w-[22.97rem] h-[15rem] "
+                className=" rounded-3xl w-[23.9rem] h-[15rem] "
               />
               <div className="location-list text-center pb-2 pt-10 mt-[-1rem] rounded-b-lg
               bg-[#EFF5FB]">
@@ -115,12 +119,13 @@ export default function Blog() {
             </Link>
           </div>
         </div>
-        <div className="jobCardWrapper w-[23rem] mt-10">
-          <div class="max-w-sm b border shadow-xl bg-white h-[35rem] rounded-3xl">
+        <div className="jobCardWrapper">
+          <div class="max-w-[386px]
+         md:max-w-[340px] lg:max-w-[386px] b border shadow-xl bg-white h-[35rem] rounded-3xl">
             <div className="">
               <img
                 src={blog4}
-                className=" rounded-3xl w-[22.97rem] h-[15rem] "
+                className=" rounded-3xl w-[23.9rem] h-[15rem] "
               />
               <div className="location-list text-center pb-2 pt-10 mt-[-1rem] rounded-b-lg bg-[#EFF5FB]">
                 <ul className="list-none text-center">
@@ -148,12 +153,13 @@ export default function Blog() {
             </Link>
           </div>
         </div>
-        <div className="jobCardWrapper w-[23rem] mx-8 mt-10">
-          <div class="max-w-sm b border shadow-xl bg-white h-[35rem] rounded-3xl">
+        <div className="jobCardWrapper">
+          <div class="max-w-[386px]
+         md:max-w-[340px] lg:max-w-[386px]  b border shadow-xl bg-white h-[35rem] rounded-3xl">
             <div className="">
               <img
                 src={blog5}
-                className=" rounded-3xl w-[22.97rem] h-[15rem] "
+                className=" rounded-3xl w-[23.9rem] h-[15rem] "
               />
               <div className="location-list text-center pb-2 pt-10 mt-[-1rem] rounded-b-lg bg-[#EFF5FB]">
                 <ul className="list-none text-center">

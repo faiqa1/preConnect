@@ -60,8 +60,6 @@ export default function BlogPage3() {
         </div>
       </div>
       <div className="blogCardWrapper flex flex-wrap ml-[10%]">
-        <h2></h2>
-
         <div className="jobCardWrapper w-[23rem]">
           <div class="max-w-sm b border shadow-xl bg-white h-[35rem] rounded-3xl">
             <div className="">

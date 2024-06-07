@@ -15,15 +15,15 @@ const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
-    items: 5,
+    items: 4,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 4,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -34,7 +34,7 @@ const responsive = {
 
 export default function JobCategory() {
   return (
-    <div className="mlr-auto">
+    <div className="mlr-auto mt-[8rem]">
       <h2 className="text-black font-bold text-3xl text-center mb-4">
         Search by Category
       </h2>
@@ -48,111 +48,145 @@ export default function JobCategory() {
         <Carousel
           responsive={responsive}
           infinite={true}
-          // autoPlay={false}
-          // autoPlaySpeed={1000}
+          // autoPlay={true}
+          // autoPlaySpeed={900}
           showDots={true}
-          className="mr-[4rem] ml-[6rem] "
-        >
-          <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  
-            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
+          className=" mx-auto justify-center
+          max-w-[1192px] md:max-w-[600px] lg:max-w-[1192px] ">
+          <div className="jobCardWrapper w-[18rem]  ">
+            <div class="p-6 bg-white border flex flex-col justify-center  
+            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
+            max-w-[260px] md:max-w-[200px] lg:max-w-[260px]">
               <div
-                className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem] iconwrapper"
+                className=" bg-white 
+                 rounded-3xl w-[6.3rem] h-[6.3rem] m-auto flex 
+                 justify-center iconwrapper  items-center"
               >
-                <FaStethoscope className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
+                <FaStethoscope className=" w-[5rem] h-[3rem]" />
               </div>
+              <div className="jobcategorytext ">
               <p class="mb-3 mt-3 text-center text-black-800 text-normal font-bold">Healthcare</p>
               <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">0 Open Positions</h4>
+              </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6
-             bgcarouselhover  bg-white border h-18  shadow bgCard h-[18rem] rounded-3xl">
+          <div className="jobCardWrapper w-[18rem]  ">
+            <div class="p-6 bg-white border flex flex-col justify-center  
+            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
+            max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
               <div
-                className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem] iconwrapper"
+                className=" bg-white 
+                 rounded-3xl w-[6.3rem] h-[6.3rem] m-auto flex 
+                 justify-center iconwrapper  items-center"
               >
-                <BiSolidPieChartAlt2 className="ml-[-1.5rem] w-[5rem] h-[2rem]"/>
+                <BiSolidPieChartAlt2 className="w-[5rem] h-[3rem]" />
               </div>
+              <div className="jobcategorytext ">
               <p class="mb-3 mt-3 text-center text-black-800 text-normal font-bold">Business Development</p>
               <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">2 Open Positions</h4>
+              </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18 
-             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
+          <div className="jobCardWrapper w-[18rem]  ">
+            <div class="p-6 bg-white border flex flex-col justify-center  
+            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
+            max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
               <div
-                className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem] iconwrapper"
+                className=" bg-white 
+                 rounded-3xl w-[6.3rem] h-[6.3rem] m-auto flex 
+                 justify-center iconwrapper  items-center"
               >
-
-                <FaCubes  className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
+                <FaCubes className="w-[5rem] h-[3rem]" />
               </div>
+              <div className="jobcategorytext ">
               <p class="mb-3 mt-3 text-center text-black-800 text-normal font-bold">Construction</p>
               <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">1 Open Positions</h4>
+              </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18   bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
+          <div className="jobCardWrapper w-[18rem]  ">
+            <div class="p-6 bg-white border flex flex-col justify-center  
+            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
+            max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
               <div
-                className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem] iconwrapper"
+                className=" bg-white 
+                 rounded-3xl w-[6.3rem] h-[6.3rem] m-auto flex 
+                 justify-center iconwrapper  items-center"
               >
-                <FaRegComments  className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
+                <FaRegComments className="w-[5rem] h-[3rem]" />
               </div>
-              <p class="mb-3 mt-3 text-center text-black-800 text-normal font-bold">Custom Services</p>
-              <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">1 Open Positions</h4>
+              <div className="jobcategorytext ">
+              <p class="mb-3 mt-3 text-center text-black-800 text-normal font-bold">Customer Services</p>
+              <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">0 Open Positions</h4>
+              </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18
-             bgcarouselhover  shadow bgCard h-[18rem] rounded-3xl">
+          <div className="jobCardWrapper w-[18rem]  ">
+            <div class="p-6 bg-white border flex flex-col justify-center  
+            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
+            max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
               <div
-                className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem] iconwrapper"
+                className=" bg-white 
+                 rounded-3xl w-[6.3rem] h-[6.3rem] m-auto flex 
+                 justify-center iconwrapper  items-center"
               >
-                <FaChartLine className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
+                <FaChartLine  className="w-[5rem] h-[3rem]" />
               </div>
+              <div className="jobcategorytext ">
               <p class="mb-3 mt-3 text-center text-black-800 text-normal font-bold">Finance</p>
-              <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">7 Open Positions</h4>
+              <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">3 Open Positions</h4>
+              </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
+          <div className="jobCardWrapper w-[18rem]  ">
+            <div class="p-6 bg-white border flex flex-col justify-center  
+            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
+            max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
               <div
-                className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem] iconwrapper"
+                className=" bg-white 
+                 rounded-3xl w-[6.3rem] h-[6.3rem] m-auto flex 
+                 justify-center iconwrapper  items-center"
               >
-                <FaRegAddressCard  className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
+                <FaRegAddressCard  className="w-[5rem] h-[3rem]" />
               </div>
+              <div className="jobcategorytext ">
               <p class="mb-3 mt-3 text-center text-black-800 text-normal font-bold">Human Resources</p>
               <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">2 Open Positions</h4>
+              </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18  shadow 
-             bgcarouselhover bgCard h-[18rem] rounded-3xl">
+          <div className="jobCardWrapper w-[18rem]  ">
+            <div class="p-6 bg-white border flex flex-col justify-center  
+            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
+            max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
               <div
-                className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem] iconwrapper"
+                className=" bg-white 
+                 rounded-3xl w-[6.3rem] h-[6.3rem] m-auto flex 
+                 justify-center iconwrapper  items-center"
               >
-                <FaRegCalendar  className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
+                <FaRegCalendar className="w-[5rem] h-[3rem]" />
               </div>
+              <div className="jobcategorytext ">
               <p class="mb-3 mt-3 text-center text-black-800 text-normal font-bold">Project Management</p>
-              <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">3 Open Positions</h4>
+              <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">5 Open Positions</h4>
+              </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[14rem]  ">
-            <div class="max-w-sm p-6 bg-white border h-18   bgcarouselhover shadow bgCard h-[18rem] rounded-3xl">
+          <div className="jobCardWrapper w-[18rem]  ">
+            <div class="p-6 bg-white border flex flex-col justify-center  
+            bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
+            max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
               <div
-                className="w-[6rem] h-[7rem] bg-white p-[2rem]
-                 rounded-3xl ml-[1.5rem] iconwrapper"
+                className=" bg-white 
+                 rounded-3xl w-[6.3rem] h-[6.3rem] m-auto flex 
+                 justify-center iconwrapper  items-center"
               >
-                <FaTerminal   className="ml-[-1.5rem] w-[5rem] h-[2rem]" />
+                <FaTerminal className="w-[5rem] h-[3rem]" />
               </div>
-              <p class="mb-3 mt-3 text-center text-black-800 text-normal font-bold">Software Engineering</p>
-              <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">20 Open Positions</h4>
+              <div className="jobcategorytext ">
+              <p class="mb-3 mt-3 text-center text-black-800 text-normal font-semibold">Software Engineering</p>
+              <h4 className="mb-3 mt-3 text-center text-black-800 font-normal">7 Open Positions</h4>
+              </div>
             </div>
           </div>
         </Carousel>

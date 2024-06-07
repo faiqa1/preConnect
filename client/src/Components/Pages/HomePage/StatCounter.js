@@ -3,8 +3,9 @@ import CountUp from 'react-countup';
 
 export default function StatCounter() {
   return (
-    <div className='countwrapper px-40 pt-12'>
-      <div className='grid grid-cols-4 px-20 mt-[-15%] text-center'>
+    <div className='countwrapper px-5 rounded-md py-3 bg-[#0969c3] w-1/2 mx-auto flex  '>
+      <div className='grid grid-cols-4 gap-4   text-center
+      w-full max-h-[80rem] md:max-h-[70rem] lg:max-h-[80rem] '>
         <div>
           <h2 className='text-4xl font-bold text-[#fff]'>
             <CountUp start={0} end={12} duration={2.5}  />

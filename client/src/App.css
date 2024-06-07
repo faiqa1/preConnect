@@ -2,8 +2,14 @@
   margin: 0;
   padding: 0;
 }
+.bg-radial{
+  background: radial-gradient(#002746,#0969c3);
+}
 .bg-blue{
   background-color:#002746;
+}
+.btn-hover:hover{
+  background-color: #002746;
 }
 .bg-lightblue{
   background-color: #EFF5FB;
@@ -17,6 +23,14 @@
 .hoverCardHeading:hover .faicon{
   fill: #fff;
 }
+.hoversubscribe{
+  padding-right: 3rem ;
+  /* box-sizing: border-box; */
+}
+.hoverunderline:hover{
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
 .carouselWrapper .react-multiple-carousel__arrow--right,
  .react-multiple-carousel__arrow--left{
   display: none;
@@ -28,11 +42,10 @@
 .carouselWrapper .react-multi-carousel-dot-list {
   margin-top: 20px; /* Adjust this value as needed */
 }
-
-.carouselWrapper .react-multi-carousel-dot--active button {
-  opacity: 1;
-  width: 30px;
+.carouselWrapper .react-multi-carousel-dot-list li:nth-child(n+4) {
+  display: none;
 }
+
 .react-multi-carousel-list  {
   padding-bottom: 5rem;
 }
@@ -51,6 +64,12 @@
 }
 .bg-pink{
   background-color: #fff8ec;
+}
+.social:hover .fillwhite{
+  fill:white
+}
+.focusoutline:focus{
+ border: 1px solid #0969c3;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
@@ -215,8 +234,8 @@
 
 .formWrapper .overlay {
 	background: #002746;
-	background: -webkit-linear-gradient(to right, #0969c3, #002746);
-	background: linear-gradient(to right, #0969c3, #002746);
+	background: -webkit-linear-gradient(to right, #024079, #002746);
+	background: linear-gradient(to right, #024079, #002746);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -280,30 +299,6 @@
 	width: 40px;
 }
 
-/* .formWrapper footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
-
-.formWrapper footer p {
-    margin: 10px 0;
-}
-
-.formWrapper footer i {
-    color: red;
-}
-
-.formWrapper footer a {
-    color: #3c97bf;
-    text-decoration: none;
-} */
 
 
 

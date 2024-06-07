@@ -7,7 +7,7 @@ export default function Header() {
     <div>
       <nav class="bg-white border-gray-200 bg-blue">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
+          <Link
             href="https://flowbite.com/"
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
@@ -15,7 +15,7 @@ export default function Header() {
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               PreConnect
             </span>
-          </a>
+          </Link>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
@@ -45,24 +45,16 @@ export default function Header() {
               <li>
                 <a
                   href="/#"
-                  class="block py-2 px-3 text-white rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white-500 underline decoration-[#002746] hover:decoration-[#fff]"
-                  aria-current="page "
+                  class="block py-2 px-3 text-white rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white-500 underline decoration-[#002746] hover:decoration-[#fff] font-bold"
+                  aria-current="page"
                 >
                   Home
                 </a>
               </li>
-              {/* <li>
-                <a
-                  href='/#'
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white  underline decoration-[#002746] hover:decoration-[#fff]"
-                >
-                  About
-                </a>
-              </li> */}
               <li>
                 <Link
-                  to='/blogs'
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent underline decoration-[#002746] hover:decoration-[#fff]"
+                  to="/blogs"
+                  class="font-bold block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent underline decoration-[#002746] hover:decoration-[#fff]"
                 >
                   Blogs
                 </Link>
@@ -70,15 +62,15 @@ export default function Header() {
               <li>
                 <Link
                   to="/featuredjobs"
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent underline decoration-[#002746] hover:decoration-[#fff]"
+                  class="font-bold block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent underline decoration-[#002746] hover:decoration-[#fff]"
                 >
                   Find Jobs
                 </Link>
               </li>
               <li>
                 <Link
-                  to= '/companies'
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent underline decoration-[#002746] hover:decoration-[#fff]"
+                  to="/companies"
+                  class=" font-boldblock py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent underline decoration-[#002746] hover:decoration-[#fff]"
                 >
                   Companies
                 </Link>

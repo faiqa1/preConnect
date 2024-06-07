@@ -11,15 +11,18 @@ import FeaturedCities from "./FeaturedCities";
 export default function Home() {
   return (
     <div>
-      <SecionOne />
-      <StatCounter />
-      {/* <JobCategory /> */}
+      <div className="relative">
+        <SecionOne />
+        <div className="absolute top-[20rem] left-0 right-0">
+          <StatCounter />
+        </div>
+      </div>
+      <JobCategory />
       <FeaturedJobs />
-      <CompaniesLogo/>
-      {/* <Companies/>
-      <FeaturedCities/> */}
-      {/* <Enquire/> */}
-      <NewsLetter/>
+      <CompaniesLogo />
+      <Companies />
+      {/*<FeaturedCities/> */}
+      <NewsLetter />
     </div>
   );
 }

@@ -24,30 +24,24 @@ export default function Footer() {
         <footer class="bg-white bg-blue pt-32">
           <div class="mx-auto w-full max-w-screen-xl">
             <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-              <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Company
+              <div className="w-[90%]">
+                <h2 class="mb-6 text-lg text-left font-bold  dark:text-white">
+                  PreConnect
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-white text-lg font-medium">
                   <li class="mb-4">
-                    <a href="#" class=" hover:underline">
-                      About
-                    </a>
+                    <p class=" ">Call Us</p>
                   </li>
                   <li class="mb-4">
-                    <a href="#" class="hover:underline">
-                      Careers
-                    </a>
+                    <p  class="">
+                      (123) 456-7890
+                    </p>
                   </li>
                   <li class="mb-4">
-                    <a href="#" class="hover:underline">
-                      FAQs
-                    </a>
-                  </li>
-                  <li class="mb-4">
-                    <a href="#" class="hover:underline">
-                      Blog
-                    </a>
+                    <p  class="text-gray-400">
+                      90 Fifth Avenue, 3rd Floor San Francisco, CA 1980
+                      office@jobster.com
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -73,7 +67,7 @@ export default function Footer() {
                   </li>
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
-                    My Application
+                      My Application
                     </a>
                   </li>
                 </ul>
