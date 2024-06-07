@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <div className="relative">
         <SecionOne />
-        <div className="absolute top-[20rem] left-0 right-0">
+        <div className="absolute top-[23rem] left-0 right-0">
           <StatCounter />
         </div>
       </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import { LuNetwork } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -25,9 +27,18 @@ export default function Footer() {
           <div class="mx-auto w-full max-w-screen-xl">
             <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
               <div className="w-[90%]">
-                <h2 class="mb-6 text-lg text-left font-bold  dark:text-white">
+              <Link to= '/home'
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <LuNetwork color="white" />
+            <span class="self-center text-2xl mb-3font-semibold whitespace-nowrap dark:text-white">
+              PreConnect
+            </span>
+            {/* <h2 class="mb-6 text-lg text-left font-bold  dark:text-white">
                   PreConnect
-                </h2>
+                </h2> */}
+          </Link>
+                
                 <ul class="text-white text-lg font-medium">
                   <li class="mb-4">
                     <p class=" ">Call Us</p>

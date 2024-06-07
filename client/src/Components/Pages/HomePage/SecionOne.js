@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import Bimage from "../../../Images/bannerImage.png";
 import { FaArrowRight } from "react-icons/fa";
 import laptop from '../../../Images/manOnLaptop.jpeg'
 import { Link } from "react-router-dom";
@@ -8,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function SecionOne() {
   return (
     <>
-      <div className="bg-blue h-[370px] w-full">
+      <div className="bg-blue h-[420px] w-full">
       <div className="flex  justify-center ">
         <div className="wrapper w-[800px]">
           <h1 className="text-white text-3xl pt-8 pb-2 ml-[5%] font-bold">
@@ -16,7 +15,7 @@ export default function SecionOne() {
           </h1>
           <p className="text-white text-xl pt-8 pb-2 ml-[5%] ">
             Join us and ignite your tech journey to reach new heights of
-            success.Preconnect will help you to reach your potentials.
+            success. Preconnect will help you to reach your potentials.
           </p>
           <button className="text-white text-lg ml-[2%] font-bold py-8
            underline decoration-[#002746] hover:decoration-[#fff]">

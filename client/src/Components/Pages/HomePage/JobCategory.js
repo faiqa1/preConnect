@@ -49,7 +49,7 @@ export default function JobCategory() {
           responsive={responsive}
           infinite={true}
           // autoPlay={true}
-          // autoPlaySpeed={900}
+          // autoPlaySpeed={100}
           showDots={true}
           className=" mx-auto justify-center
           max-w-[1192px] md:max-w-[600px] lg:max-w-[1192px] ">

@@ -9,11 +9,12 @@ import BlogPage1 from "./Components/Pages/Blog/BlogPage1";
 import BlogPage2 from "./Components/Pages/Blog/BlogPage2";
 import BlogPage3 from "./Components/Pages/Blog/BlogPage3";
 import BlogPage4 from "./Components/Pages/Blog/BlogPage4";
-import BlogPage5 from "./Components/Pages/Blog/BlogPage5" 
+import BlogPage5 from "./Components/Pages/Blog/BlogPage5";
 import AllJobs from "./Components/Pages/Jobs&Companies/AllJobs";
 import FeaturedJobs from "./Components/Pages/HomePage/FeaturedJobs";
 import FeaturedCities from "./Components/Pages/HomePage/FeaturedCities";
 import Companies from "./Components/Pages/HomePage/Companies";
+import UserHomePage from "./Components/Pages/UserHomePage/UserHomePage";
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
             }
           />
           <Route
-            path='/page1'
+            path="/page1"
             element={
               <Layout>
                 <BlogPage1 />
@@ -45,15 +46,15 @@ function App() {
             }
           />
           <Route
-            path='/page2'
+            path="/page2"
             element={
               <Layout>
                 <BlogPage2 />
               </Layout>
             }
           />
-             <Route
-            path='/page3'
+          <Route
+            path="/page3"
             element={
               <Layout>
                 <BlogPage3 />
@@ -61,7 +62,7 @@ function App() {
             }
           />
           <Route
-            path='/page4'
+            path="/page4"
             element={
               <Layout>
                 <BlogPage4 />
@@ -69,7 +70,7 @@ function App() {
             }
           />
           <Route
-            path='/page5'
+            path="/page5"
             element={
               <Layout>
                 <BlogPage5 />
@@ -77,29 +78,30 @@ function App() {
             }
           />
           <Route
-            path='/featuredjobs'
+            path="/featuredjobs"
             element={
               <Layout>
                 <FeaturedJobs />
               </Layout>
             }
           />
-           <Route
-            path='/companies'
+          <Route
+            path="/companies"
             element={
               <Layout>
                 <Companies />
               </Layout>
             }
           />
-           <Route
-            path='/alljobs'
+          <Route
+            path="/alljobs"
             element={
               <Layout>
                 <AllJobs />
               </Layout>
             }
           />
+          <Route path="/userhomepage" element={<UserHomePage />} />
           <Route
             path="/loc"
             element={
