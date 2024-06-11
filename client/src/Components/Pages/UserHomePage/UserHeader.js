@@ -62,7 +62,7 @@ export default function UserHeader() {
                     to="#"
                     class="text-gray-900 text-lg font-semibold dark:text-white hover:underline"
                   >
-                    Companies
+                    Projects
                   </Link>
                 </li>
               </ul>

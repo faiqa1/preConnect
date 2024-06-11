@@ -18,13 +18,14 @@ export default function CreatePost() {
   };
 
   return (
-    <div className="postformWrapper flex w-1/2 justify-center items-center mx-auto my-5">
+    <div className="postformWrapper flex w-full justify-center 
+    bg-[#0969c3] h-[5rem] items-center mx-auto my-5 rounded-xl">
       <form action="POST">
         <input
           type="text"
           name="post"
           placeholder="Create a post"
-          className="rounded-3xl focus:outline-none border-gray-300 bg-gray-100 border-none p-3 mx-2 my-0 w-[22rem] text-black"
+          className="rounded-3xl focus:outline-none border-gray-300 bg-white border-none p-3 mx-2 my-0 w-[22rem] text-black"
           onClick={handleInputClick}
           readOnly
         />
