@@ -31,6 +31,22 @@
   text-decoration: underline;
   text-decoration-color: #000;
 }
+.ReactModal__Overlay {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .ReactModal__Content {
+	max-width: 500px;
+	width: 90%;
+	max-height: 90%;
+	overflow: auto;
+	border-radius: 10px;
+	padding: 20px;
+	background: white;
+  }
+  
 /* styles.css or a similar file */
 /* .mainContentWrapper {
 	display: flex;

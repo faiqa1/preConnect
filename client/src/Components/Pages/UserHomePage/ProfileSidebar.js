@@ -16,7 +16,7 @@ export default function ProfileSidebar() {
             <p className="text-white text-md py-2 px-5">
               Node | React | MongoDB | Express | MERN Stack | Web Development | Docker | CI/CD Pipelines
             </p>
-            <Link to='/#'>
+            <Link to='/profile'>
               <p className="text-white font-extrabold text-md underline decoration-[#002746] hover:decoration-[#fff]">View Profile</p>
             </Link>
           </div>
