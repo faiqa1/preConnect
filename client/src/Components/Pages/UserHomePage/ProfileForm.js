@@ -5,6 +5,8 @@ import Avatar from "react-avatar";
 import AvatarEdit from "react-avatar-edit";
 import Modal from "react-modal";
 import { FaPencil } from "react-icons/fa6";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const ProfileForm = () => {
   Modal.setAppElement("#root");
@@ -79,6 +81,7 @@ const ProfileForm = () => {
       headline: values.headline,
     });
     closeModal();
+    toast.success("Profile updated successfully");
   };
 
   return (
@@ -123,9 +126,6 @@ const ProfileForm = () => {
             {({ setFieldValue }) => (
               <Form>
                 <div className="form-group">
-                  {/* <label htmlFor="profilePic" className="text-white">
-                    Profile Picture
-                  </label> */}
                   <button
                     type="button"
                     onClick={openImageModal}
@@ -192,6 +192,7 @@ const ProfileForm = () => {
           OK
         </button>
       </Modal>
+      <ToastContainer />
     </div>
   );
 };
