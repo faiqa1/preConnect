@@ -16,6 +16,7 @@ import FeaturedJobs from "./Components/Pages/HomePage/FeaturedJobs";
 import Companies from "./Components/Pages/HomePage/Companies";
 import UserHomePage from "./Components/Pages/UserHomePage/UserHomePage";
 import Profile from "./Components/Pages/UserHomePage/Profile";
+import Job from "./Components/Pages/Jobs/Job";
 
 function App() {
   return (
@@ -120,6 +121,12 @@ function App() {
               </HomePageLayout>
             }
           />
+          <Route path="job"
+            element={
+              <HomePageLayout>
+                <Job />
+              </HomePageLayout>
+            } />
           <Route path="/signup" element={<Signup />} />
         </Routes>
       </BrowserRouter>

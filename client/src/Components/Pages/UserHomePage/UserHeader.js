@@ -1,6 +1,10 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import { LuNetwork } from "react-icons/lu";
 import { Link } from "react-router-dom";
+import { FaHome, FaShoppingBag  } from "react-icons/fa";
+import { IoMdNotifications } from "react-icons/io";
+import { IoDocument } from "react-icons/io5";
 
 export default function UserHeader() {
   return (
@@ -33,36 +37,81 @@ export default function UserHeader() {
             <div class="flex items-center justify-center">
               <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                 <li>
-                  <Link
-                    to="#"
-                    class="text-gray-900 text-lg font-semibold dark:text-white hover:underline"
-                  >
+                  <NavLink
+                   to="/userhomepage" className='active:bg-violet-700'>
+                  <div className="navitemwrapper active">
+                    <div className="w-[3rem] h-[2rem]
+                     flex mx-auto
+                     justify-center iconwrapper  items-center">
+                    <FaHome className="w-[3rem] h-[1.5rem]" fill="white"/>
+                    </div>
+                    <div   class="text-gray-900 text-lg font-semibold
+                     dark:text-white ">
                     Home
-                  </Link>
+                 
+                    </div>
+                  </div>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link
+                  <Link>
+                <div className="navitemwrapper">
+                    <div className="
+                    w-[3rem] h-[2rem]
+                    flex mx-auto
+                    justify-center iconwrapper  items-center">
+                    <FaShoppingBag className="w-[2rem] h-[1.5rem]" fill="white"/>
+                    </div>
+                    <div>
+                    <Link
                     to="#"
-                    class="text-gray-900
-                    text-lg font-semibold dark:text-white hover:underline"
+                    class="text-gray-900 text-lg font-semibold
+                     dark:text-white "
                   >
                     Jobs
                   </Link>
-                </li>
-                <li>
-                  <Link
-                    to="#"
-                    class="text-gray-900 text-lg font-semibold dark:text-white hover:underline"
-                  >
-                    Notifications
+                    </div>
+                  </div>
                   </Link>
                 </li>
                 <li>
-                  <Link
+                  <Link>
+                <div className="navitemwrapper">
+                    <div className="w-[5rem] h-[2rem]
+                     flex mx-auto
+                     justify-center iconwrapper  items-center">
+                    <IoMdNotifications  className="w-[2rem] h-[2rem]" fill="white"/>
+                    </div>
+                    <div>
+                    <Link
                     to="#"
-                    class="text-gray-900 text-lg font-semibold dark:text-white hover:underline"
+                    class="text-gray-900 text-lg font-semibold
+                     dark:text-white "
+                  >
+                  Notifications
+                  </Link>
+                    </div>
+                  </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link>
+                <div className="navitemwrapper">
+                    <div className="w-[5rem] h-[2rem]
+                     flex mx-auto
+                     justify-center iconwrapper  items-center">
+                    <IoDocument  className="w-[2rem] h-[1.5rem]" fill="white"/>
+                    </div>
+                    <div>
+                    <Link
+                    to="#"
+                    class="text-gray-900 text-lg font-semibold
+                     dark:text-white "
                   >
                     Projects
+                  </Link>
+                    </div>
+                  </div>
                   </Link>
                 </li>
               </ul>
