@@ -17,6 +17,8 @@ import Companies from "./Components/Pages/HomePage/Companies";
 import UserHomePage from "./Components/Pages/UserHomePage/UserHomePage";
 import Profile from "./Components/Pages/UserHomePage/Profile";
 import Job from "./Components/Pages/Jobs/Job";
+import Project from "./Components/Pages/Projects/Project";
+import Notification from "./Components/Pages/Notifications/Notification";
 
 function App() {
   return (
@@ -125,6 +127,18 @@ function App() {
             element={
               <HomePageLayout>
                 <Job />
+              </HomePageLayout>
+            } />
+             <Route path="/projects"
+            element={
+              <HomePageLayout>
+                <Project/>
+              </HomePageLayout>
+            } />
+             <Route path="/notification"
+            element={
+              <HomePageLayout>
+                <Notification/>
               </HomePageLayout>
             } />
           <Route path="/signup" element={<Signup />} />

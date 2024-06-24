@@ -1,7 +1,18 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import logo1 from "../../../Images/companylogo1.png";
+import game from "../../../Images/gameware.png";
+import logo2 from "../../../Images/company-logo2.png";
+import logo3 from "../../../Images/company-logo3.png";
+import logo4 from "../../../Images/company-logo4.png";
+import logo5 from "../../../Images/company-logo5.png";
+import { FaRegComments } from "react-icons/fa";
+import { FaChartLine } from "react-icons/fa";
+import { FaRegAddressCard } from "react-icons/fa";
+import { FaRegCalendar } from "react-icons/fa";
+import { FaTerminal } from "react-icons/fa6";
 import { BiSolidPieChartAlt2 } from "react-icons/bi";
+
 
 export default function ViewJobs() {
   return (
@@ -71,14 +82,14 @@ export default function ViewJobs() {
                   <div className="mx-5">
                     <div className="cardHeadingWrapper flex ho hoverCardHeading">
                       <div className="bg-[#EFF5FB] chartline rounded-md px-[0.3rem] py-[0.3rem]">
-                        <BiSolidPieChartAlt2 className="faicon" />
+                        <FaTerminal className="faicon" />
                       </div>
                       <h2 className="text-gray-400 text-normal pl-[0.5rem]">
-                        Business Development
+                        Software Engineering
                       </h2>
                     </div>
                     <h3 className="text-black font-bold texl-xl pt-2">
-                      Technical Writer
+                      Full Stack Developer
                     </h3>
                     <div className="location-list text-center  pt-2">
                       <ul className="list-none flex flex-wrap ">
@@ -87,26 +98,26 @@ export default function ViewJobs() {
                             to="/loc"
                             className="text-black font-semibold pr-5"
                           >
-                            Los Angeles, CA
+                            Lahore,Punjab
                           </Link>
                         </li>
                         <li className="font-normal text-gray-600 pl-7">
-                          Part time
+                          Full Time
                         </li>
                       </ul>
                     </div>
                     <div className="cardFooter flex justify-between ">
                       <div className="cardFoooterText pt-2">
                         <p className=" font-thin text-gray-400 pb-1">
-                          June 5, 2024
+                          June 2, 2024
                         </p>
                         <h3 className=" text-black font-medium">
-                          Crafgenics
+                          Gameware
                         </h3>
                       </div>
                       <div className="companyIcon">
                         <img
-                          src={logo1}
+                          src={game}
                           className="rounded-xl w-10"
                           alt="Company Logo"
                         />
@@ -126,14 +137,14 @@ export default function ViewJobs() {
                   <div className="mx-5">
                     <div className="cardHeadingWrapper flex ho hoverCardHeading">
                       <div className="bg-[#EFF5FB] chartline rounded-md px-[0.3rem] py-[0.3rem]">
-                        <BiSolidPieChartAlt2 className="faicon" />
+                        <FaRegComments className="faicon" />
                       </div>
                       <h2 className="text-gray-400 text-normal pl-[0.5rem]">
-                        Business Development
+                        Customer Services
                       </h2>
                     </div>
                     <h3 className="text-black font-bold texl-xl pt-2">
-                      Technical Writer
+                      Technical Support Enginner
                     </h3>
                     <div className="location-list text-center  pt-2">
                       <ul className="list-none flex flex-wrap ">
@@ -153,15 +164,15 @@ export default function ViewJobs() {
                     <div className="cardFooter flex justify-between ">
                       <div className="cardFoooterText pt-2">
                         <p className=" font-thin text-gray-400 pb-1">
-                          June 5, 2024
+                          June 3, 2024
                         </p>
                         <h3 className=" text-black font-medium">
-                          Crafgenics
+                          Illuminate Studio
                         </h3>
                       </div>
                       <div className="companyIcon">
                         <img
-                          src={logo1}
+                          src={logo2}
                           className="rounded-xl w-10"
                           alt="Company Logo"
                         />
@@ -181,14 +192,14 @@ export default function ViewJobs() {
                   <div className="mx-5">
                     <div className="cardHeadingWrapper flex ho hoverCardHeading">
                       <div className="bg-[#EFF5FB] chartline rounded-md px-[0.3rem] py-[0.3rem]">
-                        <BiSolidPieChartAlt2 className="faicon" />
+                        <FaRegCalendar  className="faicon" />
                       </div>
                       <h2 className="text-gray-400 text-normal pl-[0.5rem]">
-                        Business Development
+                        Human Resources
                       </h2>
                     </div>
                     <h3 className="text-black font-bold texl-xl pt-2">
-                      Technical Writer
+                    Human Resource Manager
                     </h3>
                     <div className="location-list text-center  pt-2">
                       <ul className="list-none flex flex-wrap ">
@@ -197,11 +208,11 @@ export default function ViewJobs() {
                             to="/loc"
                             className="text-black font-semibold pr-5"
                           >
-                            Los Angeles, CA
+                            Karachi, Sindh
                           </Link>
                         </li>
                         <li className="font-normal text-gray-600 pl-7">
-                          Part time
+                          Full time
                         </li>
                       </ul>
                     </div>
@@ -211,12 +222,12 @@ export default function ViewJobs() {
                           June 5, 2024
                         </p>
                         <h3 className=" text-black font-medium">
-                          Crafgenics
+                          DataRes
                         </h3>
                       </div>
                       <div className="companyIcon">
                         <img
-                          src={logo1}
+                          src={logo3}
                           className="rounded-xl w-10"
                           alt="Company Logo"
                         />
@@ -236,14 +247,14 @@ export default function ViewJobs() {
                   <div className="mx-5">
                     <div className="cardHeadingWrapper flex ho hoverCardHeading">
                       <div className="bg-[#EFF5FB] chartline rounded-md px-[0.3rem] py-[0.3rem]">
-                        <BiSolidPieChartAlt2 className="faicon" />
+                        <FaRegAddressCard  className="faicon" />
                       </div>
                       <h2 className="text-gray-400 text-normal pl-[0.5rem]">
-                        Business Development
+                       Project Managment
                       </h2>
                     </div>
                     <h3 className="text-black font-bold texl-xl pt-2">
-                      Technical Writer
+                      Software Engineering Team Lead
                     </h3>
                     <div className="location-list text-center  pt-2">
                       <ul className="list-none flex flex-wrap ">
@@ -252,7 +263,7 @@ export default function ViewJobs() {
                             to="/loc"
                             className="text-black font-semibold pr-5"
                           >
-                            Los Angeles, CA
+                            Lahore,Punjab
                           </Link>
                         </li>
                         <li className="font-normal text-gray-600 pl-7">
@@ -263,15 +274,70 @@ export default function ViewJobs() {
                     <div className="cardFooter flex justify-between ">
                       <div className="cardFoooterText pt-2">
                         <p className=" font-thin text-gray-400 pb-1">
-                          June 5, 2024
+                          May 5, 2024
                         </p>
                         <h3 className=" text-black font-medium">
-                          Crafgenics
+                         Spspresoft
                         </h3>
                       </div>
                       <div className="companyIcon">
                         <img
-                          src={logo1}
+                          src={logo4}
+                          className="rounded-xl w-10"
+                          alt="Company Logo"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </Link>
+        </li>
+        <li>
+          <Link>
+            <div className="jobCardWrapper py-4 ">
+              <Link>
+                <div className="px-6 py-8 b border shadow-xl bg-white h-[12rem] rounded-xl w-[30rem] max-w-[32rem] md:max-w-[25rem] lg:max-w-[30rem]">
+                  <div className="mx-5">
+                    <div className="cardHeadingWrapper flex ho hoverCardHeading">
+                      <div className="bg-[#EFF5FB] chartline rounded-md px-[0.3rem] py-[0.3rem]">
+                        <FaChartLine className="faicon" />
+                      </div>
+                      <h2 className="text-gray-400 text-normal pl-[0.5rem]">
+                        Finance
+                      </h2>
+                    </div>
+                    <h3 className="text-black font-bold texl-xl pt-2">
+                      Financal Analyst
+                    </h3>
+                    <div className="location-list text-center  pt-2">
+                      <ul className="list-none flex flex-wrap ">
+                        <li>
+                          <Link
+                            to="/loc"
+                            className="text-black font-semibold pr-5"
+                          >
+                            Lahore,Pakistan
+                          </Link>
+                        </li>
+                        <li className="font-normal text-gray-600 pl-7">
+                          Full time
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="cardFooter flex justify-between ">
+                      <div className="cardFoooterText pt-2">
+                        <p className=" font-thin text-gray-400 pb-1">
+                          June 1, 2024
+                        </p>
+                        <h3 className=" text-black font-medium">
+                          Artistre Studio
+                        </h3>
+                      </div>
+                      <div className="companyIcon">
+                        <img
+                          src={logo5}
                           className="rounded-xl w-10"
                           alt="Company Logo"
                         />
