@@ -54,10 +54,10 @@ export default function UserHeader() {
                   </NavLink>
                 </li>
                 <li>
-                  <Link>
+                  <Link to='/job'>
                 <div className="navitemwrapper">
                     <div className="
-                    w-[3rem] h-[2rem]
+                    w-[2rem] h-[2rem]
                     flex mx-auto
                     justify-center iconwrapper  items-center">
                     <FaShoppingBag className="w-[2rem] h-[1.5rem]" fill="white"/>
@@ -77,27 +77,7 @@ export default function UserHeader() {
                 <li>
                   <Link>
                 <div className="navitemwrapper">
-                    <div className="w-[5rem] h-[2rem]
-                     flex mx-auto
-                     justify-center iconwrapper  items-center">
-                    <IoMdNotifications  className="w-[2rem] h-[2rem]" fill="white"/>
-                    </div>
-                    <div>
-                    <Link
-                    to="#"
-                    class="text-gray-900 text-lg font-semibold
-                     dark:text-white "
-                  >
-                  Notifications
-                  </Link>
-                    </div>
-                  </div>
-                  </Link>
-                </li>
-                <li>
-                  <Link>
-                <div className="navitemwrapper">
-                    <div className="w-[5rem] h-[2rem]
+                    <div className="w-[2rem] h-[2rem]
                      flex mx-auto
                      justify-center iconwrapper  items-center">
                     <IoDocument  className="w-[2rem] h-[1.5rem]" fill="white"/>
@@ -109,6 +89,26 @@ export default function UserHeader() {
                      dark:text-white "
                   >
                     Projects
+                  </Link>
+                    </div>
+                  </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link>
+                <div className="navitemwrapper">
+                    <div className="w-[2rem] h-[2rem]
+                     flex mx-auto
+                     justify-center iconwrapper  items-center">
+                    <IoMdNotifications  className="w-[2rem] h-[2rem]" fill="white"/>
+                    </div>
+                    <div>
+                    <Link
+                    to="#"
+                    class="text-gray-900 text-lg font-semibold
+                     dark:text-white "
+                  >
+                  Notifications
                   </Link>
                     </div>
                   </div>

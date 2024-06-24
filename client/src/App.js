@@ -121,7 +121,7 @@ function App() {
               </HomePageLayout>
             }
           />
-          <Route path="job"
+          <Route path="/job"
             element={
               <HomePageLayout>
                 <Job />

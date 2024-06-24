@@ -6,7 +6,7 @@ import AvatarEdit from "react-avatar-edit";
 import Modal from "react-modal";
 import { FaPencil } from "react-icons/fa6";
 import { ToastContainer, toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 
 const ProfileForm = () => {
   Modal.setAppElement("#root");
@@ -133,7 +133,9 @@ const ProfileForm = () => {
                   >
                     Choose Profile Photo
                   </button>
-                  {preview && <Avatar src={preview} size="100" round className="mx-4" />}
+                  {preview && (
+                    <Avatar src={preview} size="100" round className="mx-4" />
+                  )}
                 </div>
                 <div className="form-group">
                   <label htmlFor="name" className="text-white">
