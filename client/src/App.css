@@ -55,6 +55,9 @@
   .jobCardWrapper:hover {
 	transform: scale(1.05); 
   }
+  .activeblue:active{
+	color: blue;
+  }
   
 /* styles.css or a similar file */
 /* .mainContentWrapper {

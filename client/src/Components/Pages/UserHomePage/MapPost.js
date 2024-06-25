@@ -64,11 +64,11 @@ export default function MapPost() {
           <b>Interested candidate can send their resume info@thedevport.com</b>
         </p>
       </div>
-      <div className="options flex justify-around mt-3">
+      <div className="options flex justify-startmt-3">
         <Link to="/#" className="text-blue-600 hover:underline">
           Like
         </Link>
-        <Link to="/#" className="text-blue-600 hover:underline">
+        <Link to="/#" className="text-blue-600 hover:underline px-4">
           Comment
         </Link>
         <Link to="/#" className="text-blue-600 hover:underline">
@@ -82,7 +82,7 @@ export default function MapPost() {
             value={comment}
             onChange={handleCommentChange}
             placeholder="Add a comment"
-            className="rounded-3xl focus:outline-none border-gray-300 bg-white border-none p-3 mx-2  text-black w-full"
+            className="rounded-md focus:outline-none border-gray-300 bg-white border-none p-3 mx-2  text-black w-1/2"
           />
           <button
             type="submit"

@@ -36,7 +36,7 @@ export default function UserHeader() {
             <div class="flex items-center justify-center">
               <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                 <li>
-                  <NavLink to="/userhomepage" className="active:bg-violet-700">
+                  <NavLink to="/userhomepage" className=" active dark:bg-gray-800 ">
                     <div className="navitemwrapper active">
                       <div
                         className="w-[3rem] h-[2rem]
@@ -54,7 +54,7 @@ export default function UserHeader() {
                   </NavLink>
                 </li>
                 <li>
-                  <Link to="/job">
+                  <NavLink to="/job">
                     <div className="navitemwrapper">
                       <div
                         className="
@@ -67,19 +67,14 @@ export default function UserHeader() {
                           fill="black"
                         />
                       </div>
-                      <div>
-                        <Link
-                          to="#"
-                          class="text-black text-lg font-semibold"
-                        >
+                      <div class="text-black text-lg font-semibold">
                           Jobs
-                        </Link>
                       </div>
                     </div>
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/projects">
+                  <NavLink to="/projects">
                     <div className="navitemwrapper">
                       <div
                         className="w-[2rem] h-[2rem]
@@ -91,18 +86,14 @@ export default function UserHeader() {
                           fill="black"
                         />
                       </div>
-                      <div>
-                        <Link
-                          to="#"
-                          class="text-black text-lg font-semibold">
+                      <div  class="text-black text-lg font-semibold">
                           Projects
-                        </Link>
                       </div>
                     </div>
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/notification">
+                  <NavLink to="/notification">
                     <div className="navitemwrapper">
                       <div
                         className="w-[2rem] h-[2rem]
@@ -114,16 +105,11 @@ export default function UserHeader() {
                           fill="black"
                         />
                       </div>
-                      <div>
-                        <Link
-                          to="#"
-                          class="text-black text-lg font-semibold"
-                        >
+                      <div class="text-black text-lg font-semibold">
                           Notifications
-                        </Link>
                       </div>
                     </div>
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </div>
