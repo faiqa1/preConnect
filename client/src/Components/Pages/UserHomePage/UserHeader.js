@@ -31,8 +31,8 @@ export default function UserHeader() {
             </div>
           </div>
         </nav>
-        <nav class="  bg-[#0969c3]">
-          <div class="max-w-screen-xl px-4 py-3 mx-auto">
+        <nav class="  bg-lightblue">
+          <div class="max-w-screen-xl px-4 py-1 mx-auto">
             <div class="flex items-center justify-center">
               <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                 <li>
@@ -43,11 +43,10 @@ export default function UserHeader() {
                      flex mx-auto
                      justify-center iconwrapper  items-center"
                       >
-                        <FaHome className="w-[3rem] h-[1.5rem]" fill="white" />
+                        <FaHome className="w-[3rem] h-[1.5rem]" fill="black" />
                       </div>
                       <div
-                        class="text-gray-900 text-lg font-semibold
-                     dark:text-white "
+                        class="text-black text-lg font-semibold"
                       >
                         Home
                       </div>
@@ -65,14 +64,13 @@ export default function UserHeader() {
                       >
                         <FaShoppingBag
                           className="w-[2rem] h-[1.5rem]"
-                          fill="white"
+                          fill="black"
                         />
                       </div>
                       <div>
                         <Link
                           to="#"
-                          class="text-gray-900 text-lg font-semibold
-                     dark:text-white"
+                          class="text-black text-lg font-semibold"
                         >
                           Jobs
                         </Link>
@@ -90,15 +88,13 @@ export default function UserHeader() {
                       >
                         <IoDocument
                           className="w-[2rem] h-[1.5rem]"
-                          fill="white"
+                          fill="black"
                         />
                       </div>
                       <div>
                         <Link
                           to="#"
-                          class="text-gray-900 text-lg font-semibold
-                     dark:text-white"
-                        >
+                          class="text-black text-lg font-semibold">
                           Projects
                         </Link>
                       </div>
@@ -115,14 +111,13 @@ export default function UserHeader() {
                       >
                         <IoMdNotifications
                           className="w-[2rem] h-[2rem]"
-                          fill="white"
+                          fill="black"
                         />
                       </div>
                       <div>
                         <Link
                           to="#"
-                          class="text-gray-900 text-lg font-semibold
-                     dark:text-white "
+                          class="text-black text-lg font-semibold"
                         >
                           Notifications
                         </Link>

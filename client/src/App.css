@@ -50,11 +50,10 @@
 	background: #0969c3 !important;
   }
   .jobCardWrapper {
-	transition: transform 0.3s ease-in-out; /* Smooth transition */
+	transition: transform 0.3s ease-in-out; 
   }
-  
   .jobCardWrapper:hover {
-	transform: scale(1.05); /* Zoom effect */
+	transform: scale(1.05); 
   }
   
 /* styles.css or a similar file */
