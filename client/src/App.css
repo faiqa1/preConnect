@@ -49,6 +49,14 @@
   .circleblue {
 	background: #0969c3 !important;
   }
+  .jobCardWrapper {
+	transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .jobCardWrapper:hover {
+	transform: scale(1.05); /* Zoom effect */
+  }
+  
 /* styles.css or a similar file */
 /* .mainContentWrapper {
 	display: flex;
