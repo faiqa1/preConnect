@@ -4,10 +4,17 @@ import CreateJob from "./CreateJob";
 import SeekGuidance from "./SeekGuidance";
 export default function Job() {
   return(
-   <>
-   <CreateJob/>
-   <ViewJobs/>
-   <SeekGuidance/>
-   </>
+  
+   <div className='flex  '>
+      <div className='my-5'>
+    <CreateJob/>
+    </div>
+    <div className='mx-20'>
+    <ViewJobs/>
+    </div>
+    <div className='ml-[5rem] my-5'>
+    <SeekGuidance/>
+    </div>
+  </div>
   );
 }

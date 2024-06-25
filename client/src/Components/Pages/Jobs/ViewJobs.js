@@ -17,7 +17,7 @@ import { BiSolidPieChartAlt2 } from "react-icons/bi";
 export default function ViewJobs() {
   return (
     <div>
-    <div className="jobWrapper w-[40%] mx-auto bg-lightblue h-auto py-4 my-8">
+    <div className="jobWrapper w-full px-8 mx-auto bg-lightblue h-auto py-4 my-8">
       <ul className="flex flex-col justify-center items-center ">
         <li>
           <Link>
