@@ -34,80 +34,77 @@ export default function UserHeader() {
         <nav class="  bg-lightblue">
           <div class="max-w-screen-xl px-4 py-1 mx-auto">
             <div class="flex items-center justify-center">
-              <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
+              <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm navactiveLink">
                 <li>
-                  <NavLink to="/userhomepage" className=" active dark:bg-gray-800 ">
-                    <div className="navitemwrapper active">
-                      <div
-                        className="w-[3rem] h-[2rem]
-                     flex mx-auto
-                     justify-center iconwrapper  items-center"
-                      >
-                        <FaHome className="w-[3rem] h-[1.5rem]" fill="black" />
-                      </div>
-                      <div
-                        class="text-black text-lg font-semibold"
-                      >
-                        Home
-                      </div>
+                  <NavLink
+                    to="/userhomepage"
+                    className={({ isActive }) =>
+                      isActive
+                        ? "navitemwrapper active "
+                        : "navitemwrapper"
+                    }
+                  >
+                    <div className="w-[3rem] h-[2rem] flex mx-auto justify-center iconwrapper items-center">
+                      <FaHome className="w-[3rem] h-[1.5rem]" fill="black" />
+                    </div>
+                    <div className="text-black text-lg font-semibold text ">Home</div>
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/job"
+                    className={({ isActive }) =>
+                      isActive
+                        ? "navitemwrapper active"
+                        : "navitemwrapper"
+                    }
+                  >
+                    <div className="w-[2rem] h-[2rem] flex mx-auto justify-center iconwrapper items-center">
+                      <FaShoppingBag
+                        className="w-[2rem] h-[1.5rem]"
+                        fill="black"
+                      />
+                    </div>
+                    <div className="text-black text-lg font-semibold text">Jobs</div>
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/projects"
+                    className={({ isActive }) =>
+                      isActive
+                        ? "navitemwrapper active"
+                        : "navitemwrapper"
+                    }
+                  >
+                    <div className="w-[2rem] h-[2rem] flex mx-auto justify-center iconwrapper items-center">
+                      <IoDocument
+                        className="w-[2rem] h-[1.5rem]"
+                        fill="black"
+                      />
+                    </div>
+                    <div className="text-black text-lg font-semibold text">
+                      Projects
                     </div>
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/job">
-                    <div className="navitemwrapper">
-                      <div
-                        className="
-                    w-[2rem] h-[2rem]
-                    flex mx-auto
-                    justify-center iconwrapper  items-center"
-                      >
-                        <FaShoppingBag
-                          className="w-[2rem] h-[1.5rem]"
-                          fill="black"
-                        />
-                      </div>
-                      <div class="text-black text-lg font-semibold">
-                          Jobs
-                      </div>
+                  <NavLink
+                    to="/notification"
+                    className={({ isActive }) =>
+                      isActive
+                        ? "navitemwrapper active"
+                        : "navitemwrapper"
+                    }
+                  >
+                    <div className="w-[2rem] h-[2rem] flex mx-auto justify-center iconwrapper items-center">
+                      <IoMdNotifications
+                        className="w-[2rem] h-[2rem]"
+                        fill="black"
+                      />
                     </div>
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/projects">
-                    <div className="navitemwrapper">
-                      <div
-                        className="w-[2rem] h-[2rem]
-                     flex mx-auto
-                     justify-center iconwrapper  items-center"
-                      >
-                        <IoDocument
-                          className="w-[2rem] h-[1.5rem]"
-                          fill="black"
-                        />
-                      </div>
-                      <div  class="text-black text-lg font-semibold">
-                          Projects
-                      </div>
-                    </div>
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/notification">
-                    <div className="navitemwrapper">
-                      <div
-                        className="w-[2rem] h-[2rem]
-                     flex mx-auto
-                     justify-center iconwrapper  items-center"
-                      >
-                        <IoMdNotifications
-                          className="w-[2rem] h-[2rem]"
-                          fill="black"
-                        />
-                      </div>
-                      <div class="text-black text-lg font-semibold">
-                          Notifications
-                      </div>
+                    <div className="text-black text-lg font-semibold text">
+                      Notifications
                     </div>
                   </NavLink>
                 </li>

@@ -17,10 +17,11 @@ export default function SecionOne() {
             Join us and ignite your tech journey to reach new heights of
             success. Preconnect will help you to reach your potentials.
           </p>
-          <button className="text-white text-lg ml-[2%] font-bold py-8
-           underline decoration-[#002746] hover:decoration-[#fff]">
-            <Link to="/signup">Get Started</Link>
-            <FaArrowRight className="mt-[-1.4rem] ml-[8rem]" />
+          <button className="text-white text-lg ml-[4%] mt-4 font-bold py-4 px-2
+           underline decoration-[#0969c3] hover:decoration-[#fff]
+           rounded-lg bg-[#0969c3]">
+            <Link to="/signup" className="mr-5">Get Started</Link>
+            <FaArrowRight className="mt-[-1.4rem] ml-[7rem]" />
           </button>
         </div>
         <div className="bannerImage flex ">

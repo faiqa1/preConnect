@@ -53,7 +53,7 @@ export default function JobCategory() {
           showDots={true}
           className=" mx-auto justify-center
           max-w-[1192px] md:max-w-[600px] lg:max-w-[1192px] ">
-          <div className="jobCardWrapper w-[18rem]  ">
+          <div className="w-[18rem]  ">
             <div class="p-6 bg-white border flex flex-col justify-center  
             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
             max-w-[260px] md:max-w-[200px] lg:max-w-[260px]">
@@ -70,7 +70,7 @@ export default function JobCategory() {
               </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[18rem]  ">
+          <div className="w-[18rem]  ">
             <div class="p-6 bg-white border flex flex-col justify-center  
             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
             max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
@@ -87,7 +87,7 @@ export default function JobCategory() {
               </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[18rem]  ">
+          <div className="w-[18rem]  ">
             <div class="p-6 bg-white border flex flex-col justify-center  
             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
             max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
@@ -104,7 +104,7 @@ export default function JobCategory() {
               </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[18rem]  ">
+          <div className="w-[18rem]  ">
             <div class="p-6 bg-white border flex flex-col justify-center  
             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
             max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
@@ -121,7 +121,7 @@ export default function JobCategory() {
               </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[18rem]  ">
+          <div className="w-[18rem]  ">
             <div class="p-6 bg-white border flex flex-col justify-center  
             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
             max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
@@ -138,7 +138,7 @@ export default function JobCategory() {
               </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[18rem]  ">
+          <div className="w-[18rem]  ">
             <div class="p-6 bg-white border flex flex-col justify-center  
             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
             max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
@@ -155,7 +155,7 @@ export default function JobCategory() {
               </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[18rem]  ">
+          <div className="w-[18rem]  ">
             <div class="p-6 bg-white border flex flex-col justify-center  
             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
             max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">
@@ -172,7 +172,7 @@ export default function JobCategory() {
               </div>
             </div>
           </div>
-          <div className="jobCardWrapper w-[18rem]  ">
+          <div className="w-[18rem]  ">
             <div class="p-6 bg-white border flex flex-col justify-center  
             bgcarouselhover shadow bgCard h-[18rem] rounded-3xl
             max-w-[260px] md:max-w-[206px] lg:max-w-[260px]">

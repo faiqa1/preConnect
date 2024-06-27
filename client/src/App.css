@@ -55,9 +55,14 @@
   .jobCardWrapper:hover {
 	transform: scale(1.05); 
   }
-  .activeblue:active{
-	color: blue;
+  .navactiveLink  .navitemwrapper.active .text {
+	color: #0969c3!important; /* Change text color to blue */
   }
+  
+  .navactiveLink  .navitemwrapper.active .iconwrapper svg {
+	fill: #0969c3;
+	transform: rotate(-15deg); 
+}
   
 /* styles.css or a similar file */
 /* .mainContentWrapper {
