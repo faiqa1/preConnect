@@ -25,7 +25,6 @@
 }
 .hoversubscribe{
   padding-right: 3rem ;
-  /* box-sizing: border-box; */
 }
 .hoverunderline:hover{
   text-decoration: underline;
@@ -63,19 +62,6 @@
 	fill: #0969c3;
 	transform: rotate(-15deg); 
 }
-  
-/* styles.css or a similar file */
-/* .mainContentWrapper {
-	display: flex;
-	justify-content: space-between;
-  }
-  
-  .centerContent {
-	flex-grow: 1;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-  } */
   
 .carouselWrapper .react-multiple-carousel__arrow--right,
  .react-multiple-carousel__arrow--left{

@@ -42,7 +42,7 @@ export default function MapPost() {
           <b>Job Title</b> Full Stack Developer <br />
           <b>Job Typr</b>Full Time (Onsite) <br />
           <b>Experience</b>3-5 years <br />
-          <b>Location:</b>333 J1, Block, Johar Town - Programming Languages:
+          <b>Location:</b>333 J1, Block, Johar Town<br/> - Programming Languages:
           Proficiency in Python, .Net, and Node as a plus
           <br />
           - Backend Frameworks: Django, Flask, or FastAPI.
