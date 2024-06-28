@@ -31,7 +31,6 @@ const responsive = {
   },
 };
 
-
 export default function JobCategory() {
   return (
     <div className="mlr-auto mt-[8rem]">
