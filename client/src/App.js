@@ -19,6 +19,7 @@ import Profile from "./Components/Pages/UserHomePage/Profile";
 import Job from "./Components/Pages/Jobs/Job";
 import Project from "./Components/Pages/Projects/Project";
 import Notification from "./Components/Pages/Notifications/Notification";
+import Projectform from "./Components/Pages/Projects/Projectform";
 
 function App() {
   return (
@@ -142,6 +143,7 @@ function App() {
               </HomePageLayout>
             } />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/projectform" element={<Projectform />} />
         </Routes>
       </BrowserRouter>
     </>
